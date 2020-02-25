@@ -1,501 +1,310 @@
 <!DOCTYPE html>
 <html lang="fr">
-  	<head>
-		<title>Geoffrey Gourlez - Development Addict</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta property="og:title" content="Geoffrey Gourlez > Développeur / Technical Leader" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://www.geoffreygourlez.fr" />
-		<meta property="og:image" content="http://www.geoffreygourlez.fr/images/favicon.png" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
-		<link rel="stylesheet" type="text/css" href="css/slicknav.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="icon" type="image/png" href="images/favicon.png" />
-		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
-		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
-		<script type="text/javascript" src="js/camera.min.js"></script>
-		<script type="text/javascript" src="js/myscript.js"></script>
-		<script type="text/javascript" src="js/jquery.isotope.js"></script>
-		<script>
-			jQuery(function(){
-					jQuery('#camera_wrap_1').camera({
-					transPeriod: 500,
-					time: 2000,
-					height: '490px',
-					thumbnails: false,
-					pagination: false,
-					playPause: false,
-					loader: false,
-					navigation: false,
-					hover: false
-				});
-			});
-		</script> 		
-	</head>
-	<body>
-    
-		<div id="home">
-			<div class="headerLine">
-				<div id="menuF" class="default">
-					<div class="container">
-						<div class="row">
-							<div class="logo col-md-4">
-								<div>
-									<a href="#">
-										<img src="images/biglogo.png">
-									</a>
-								</div>
-							</div>
-							<div class="col-md-8">
-								<div class="navmenu"style="text-align: center;">
-									<ul id="menu">
-										<li class="active" ><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-										<li><a href="#moi">Moi</a></li>
-										<li><a href="#competences">Compétences</a></li>										
-										<li><a href="#projets">Mon histoire</a></li>
-										<li class="last"><a href="#contact">Contact</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<div class="row wrap">
-						<div class="col-md-12 gallery"> 					
-								<div class="camera_wrap camera_white_skin" id="camera_wrap_1">							
-									<div data-thumb="" data-src="images/blank.gif">
-										<div class="img-responsive camera_caption fadeFromBottom">
-											<h2>Software Engineer</h2>
-										</div>
-									</div>
-									<div data-thumb="" data-src="images/blank.gif">
-										<div class="img-responsive camera_caption fadeFromBottom">
-											<h2>Technical Leader</h2>
-										</div>
-									</div>
-									<div data-thumb="" data-src="images/blank.gif">
-										<div class="img-responsive camera_caption fadeFromBottom">
-											<h2>Passionné</h2>
-										</div>
-									</div> 
-									
-								</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="moi">
-			<div class="container">
-				<div class="row">
-					<div class="blockquote">
-						<p>The only way to do great work is to love what you do.</p>
-						<div class="text-right">Steve Jobs</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row team">
-					<div class="col-md-6">
-						<img class="img-responsive roudedimg" src="images/picTeam/1.jpg">
-					</div>
-				
-				
-					<div class="col-md-6">						
-						<h4>Hello moi c'est Geoffrey</h4>
-						<h5>Software Engineer / Technical Leader</h5>
-						<p>Depuis mon plus jeune âge je suis quelqu'un de curieux, j'aime décortiquer, analyser et comprendre tout ce que j'ai en face de moi. J'ai d'abord suivi un cursus d'électronique avant de découvrir l'informatique. J'aime construire toute sorte de choses, me rendre et me sentir utile. Passionné par le développement, aimant trouver des solutions, j'aime aussi faire grandir qui veut bien m'écouter. Aujourd'hui je m'épanouis pleinement dans mon rôle de Technical Leader qui me permet d'allier technique et mentoring.</p>
-						<ul>
-							<li><a href="https://www.linkedin.com/in/geoffrey-gourlez-080828a3/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="http://www.viadeo.com/p/0021mptu6769w0rp" target="_blank"><i class="fa fa-viadeo"></i></a></li>								
-							<li><a href="https://twitter.com/geoiris" target="_blank"><i class="fa fa-twitter" ></i></a></li>
-							<li><a href="https://github.com/geoiris" target="_blank"><i class="fa fa-github" ></i></a></li>							
-						</ul>
-					</div>					
-				</div>
-			</div>
-		</div>
 
-		<div id="competences">		
-			<div class="line3">
-				<div class="container">
-					<div id="project1" ></div>
-					<div class="row Ama">
-						<div class="col-md-12">
-						<span name="projects" id="projectss"></span>
-						<h3>Mes compétences</h3>
-						</div>
-					</div>
-				</div>
-			</div>
+<head>
+    <title>Geoffrey Gourlez - Development Addict</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description"
+        content="Author: Geoffrey Gourlez,
+    bienvenue sur mon CV en ligne, je vais vous présenter mon parcours de Développeur, de mes début en C# et de mon évolution autour des technologies Javascript et Web en passant par mes passions pour l'électronique.">
+    <meta property="og:title" content="Geoffrey Gourlez > Développeur / Technical Leader" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.geoffreygourlez.fr" />
+    <meta property="og:image" content="http://www.geoffreygourlez.fr/images/favicon.png" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-sm-4 col-xs-6 bar">
-						<div class="progB chart" data-percent="95"  data-animate="3500">
-							<div class="chart chart-content">
-								<div class="percentage" data-percent="95">
-									<span class="percent">95</span>
-								</div>
-							</div>
-						</div>
-						<div class="textP">
-							<h3>HTML/CSS</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6 bar">
-						<div class="progB chart" data-percent="80"  data-animate="3500">
-							<div class="chart chart-content">
-								<div class="percentage" data-percent="80">
-								<span class="percent">80</span>
-								</div>
-							</div>
-						</div>
-						<div class="textP">
-							<h3>Javascript</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6 bar">
-						<div class="progB chart" data-percent="85"  data-animate="3500">
-							<div class="chart chart-content">
-								<div class="percentage" data-percent="85">
-								<span class="percent">85</span>
-								</div>
-							</div>
-						</div>
-						<div class="textP">
-							<h3>.Net C#</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6 bar">
-						<div class="progB chart" data-percent="90"  data-animate="3500">
-							<div class="chart chart-content">
-								<div class="percentage" data-percent="90">
-								<span class="percent">90</span>
-								</div>
-							</div>
-						</div>
-						<div class="textP">
-							<h3>NodeJs</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6 bar">
-						<div class="progB chart" data-percent="90"  data-animate="3500">
-							<div class="chart chart-content">
-								<div class="percentage" data-percent="90">
-								<span class="percent">90</span>
-								</div>
-							</div>
-						</div>
-						<div class="textP">
-							<h3>MongoDb</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6 bar">
-						<div class="progB chart" data-percent="87"  data-animate="3500">
-							<div class="chart chart-content">
-								<div class="percentage" data-percent="87">
-								<span class="percent">87</span>
-								</div>
-							</div>
-						</div>
-						<div class="textP">
-							<h3>Git</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6 bar">
-						<div class="progB chart" data-percent="90"  data-animate="3500">
-							<div class="chart chart-content">
-								<div class="percentage" data-percent="90">
-								<span class="percent">90</span>
-								</div>
-							</div>
-						</div>
-						<div class="textP">
-							<h3>Azure</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6 bar">
-						<div class="progB chart" data-percent="92"  data-animate="3500">
-							<div class="chart chart-content">
-								<div class="percentage" data-percent="92">
-								<span class="percent">92</span>
-								</div>
-							</div>
-						</div>
-						<div class="textP">
-							<h3>Automatisation</h3>
-						</div>
-					</div>				
-				</div>
-			</div>
+<body>
+    <!-- <div class="row darkblue">
+        <div class="line">
+            <div class="block">
+                <div class="title">
+                    <img alt="Geoffrey Gourlez" class="logo" src="images/logo.png">
 
-			<div class="container">
-				<div class="row aboutUs">
-					<div class="col-md-12 ">
-						<h3>Mais aussi beaucoup d'autres choses</h3>
-					</div>
-				</div>
-			</div>
-			
-			<div style="position: relative;">
-				<div class="container">
-					<div class="row about">
-						<div class="col-md-6">
-							<div class="about1">
-							<img class="pic1Ab" src="images/picAbout/aboutP1.png">
-								<h3>Bonnes pratiques de développement</h3>
-								<p>Depuis mon arrivée chez AXA, j'ai été formé à bon nombre de bonnes pratiques de développement comme le TDD, BDD, le Clean Code et les revues de code. Ces pratiques sont devenues un quotidien et aujourd'hui je suis l'un des référents de ces pratiques au sein de mon équipe.</p>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="about2">
-							<img class="pic2Ab" src="images/picAbout/aboutP2.png">
-								<h3>Le Mentoring</h3>
-								<p>Nouveau challenge pour moi, mon passage au statut de Technical Leader m'a poussé à développer mon côté Altruiste. J'aime la technique et j'aime former les gens qui le veulent. Aujourd'hui je suis pleinement épanoui dans le fait de tirer le meilleur des personnes qui travaillent avec moi pour pouvoir grandir ensemble.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			
-				<div class="horL"></div>
-			
-				<div class="container">
-					<div class="row about">
-						<div class="col-md-6">
-							<div class="about1">
-							<img class="pic1Ab" src="images/picAbout/aboutP3.png">
-								<h3>Curiosité</h3>
-								<p>La liste des langages, des bases de données ou des Frameworks que j'ai déjà utilisés est longue. Mon côté curieux me pousse à toujours tester de nouvelles choses. Toujours passionné par l'électronique, j'aime créer mes propres objets connectés par exemple, ma seule limite devient alors le temps que j'ai à ma disposition.</p>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="about2">
-							<img class="pic2Ab" src="images/picAbout/aboutP4.png">
-								<h3>Le travail en équipe</h3>
-								<p>Nous avons toujours besoin d'un regard extérieur sur ce que nous faisons, quelqu'un pour nous aider ou même pour relire notre code. Avec le recul je peux confirmer l'importance d'avoir une bonne cohésion d'équipe et de pratiquer le Feedback régulièrement.</p>
-							</div>
-						</div>
-					</div>
-				</div>			
-			</div>
-		</div>
-		<div id="projets">
-			<div class="line4">		
-				<div class="container">
-					<div class="row Ama">
-						<div class="col-md-12">
-						<h3>Mon histoire - Mes Projets</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row news">
-					<div class="col-md-6">
-						 <img class="img-responsive picsGall" src="images/picProjects/electronic.jpg"/> 
-						<h3>L'étude de électronique</h3>
-						<p>Tout commence au lycée où, ne sachant pas encore quoi faire dans la vie, je me lance dans l'électronique. Pas encore équipé d'ordinateur à l'époque je me prends vite au grand jeu de création qu'est l'électronique. Après deux années d'études je m'en sors haut la main dans les domaines de la physique et de l'électronique. N'ayant côtoyé des ordinateurs qu'à l'école je souhaite en savoir davantage sur ce monstre blanc nacré qui traine partout dans les salles de cours. C'est donc au plus grand désespoir de mes professeurs d'électronique que je me lance dans une nouvelle aventure qu'est l'informatique.</p>
-						<hr class="hrNews">
-					</div>
-					<div class="col-md-6">
-						<img class="img-responsive picsGall" src="images/picProjects/arduinopi.jpg"/>
-						<h3>L'électronique, plus que des cours</h3>
-						<p>L'électronique n'est pas qu'un vieux reste de cours de Lycée. Passionné par les nouvelles technologies, à l'heure de la domotique, des Arduino, des Raspberry Pi et bien d'autre, je suis aujourd'hui en pleine création de mon IoT personnel. Allant de la création de simple capteur à la conception de mon propre Hub d'objets connectés, j'aime faire mon Geek et m'enrichir de nouvelles techniques tout en m'amusant.</p>
-						<hr class="hrNews">
-					</div>
-				</div>
-				<div class="row news"> 
-					<div class="col-md-6">
-						<img class="img-responsive picsGall" src="images/picProjects/gustave_eiffel.jpg"/>
-						<h3>La découverte de l'informatique</h3>
-						<p>En 2006 j'entre alors dans ce que je qualifie être mes deux plus belles années d'études, le BTS IRIS (Informatique et réseaux pour l'industrie et les services). J'apprends la programmation, l'architecture, le réseau. Je me découvre une nouvelle passion, j'achète mon premier PC, puis mon deuxième et ainsi de suite, je suis l'étudiant "geek" en informatique parfait, mes soirées se résument à bidouiller des bouts de code, écrire des programmes en C++ et surtout mener au bout le Projet de BTS, la création d'une application permettant à un restaurant de prendre les commandes, informer les cuisines et gérer le paiement, le tout en Java, sur les écrans tactiles de l'époque. C'est aussi à cette période que je découvre le monde du travail en Stage chez Adeo Services où j'ai développé de petits scripts en Shell permettant de vérifier les installations des serveurs de caisse des magasins Leroy Merlin.</p>
-						<hr class="hrNews">
-					</div>
-					<div class="col-md-6">
-						<img class="img-responsive picsGall" src="images/picProjects/supinfo.jpg"/>
-						<h3>Approfondissement des connaissances</h3>
-						<p>Durant ces trois ans d'école d'ingénieur, je ne chaume pas ! Dans le premier mois je trouve un stage en tant que développeur PHP dans une école de commerce à distance. Le but est de développer un CRM interne permettant de gérer les prospects et les étudiants de l'école. Je réalise également d'autres projets internes comme la mise en place d'un traqueur de visites sur les sites de l'école pour améliorer notre SEO (Search Engine Optimization), ou encore réaliser un jeu Facebook en FBML (langage de programmation "maison" de Facebook) afin d'attirer des prospects.</p>
-						<p>Après cette expérience je suis recruté par SoftThinks. Cette société, spécialisée dans le Backup & Restore, travaille principalement avec Dell et HP pour mettre en place ce type de solution sur leurs systèmes. C'est ici que je découvre l'univers du .Net en entreprise. D'abord chargé de réaliser un site ASP.Net permettant de gérer les traductions de toutes les applications de la société, je suis vite positionné en renfort dans l'équipe chargée d'étudier une solution de Backup & Restore sur le Cloud. Solution en WPF avec un Hébergement sur Amazon S3 dans un premier temps, puis sur Azure Storage. C'est ici que je vais finir mes études et c'est avec ce projet que je validerai alors mon mémoire.</p>
-						<hr class="hrNews">
-					</div>
-				</div>
-				<div class="row news"> 
-					<div class="col-md-12">
-						<center><img class="img-responsive picsGall" src="images/picProjects/axa.jpg"/></center>
-						<h3>L'Aventure AXA</h3>
-						<p>C'est en octobre 2011 que débute mon aventure chez AXA. Jeune diplômé, le Web Center de Lille venait d'ouvrir ses portes et décide de me faire confiance. C'est là que mes armes commencent à se faire. Le cadre est neuf, les équipes sont dynamiques, les projets innovants et le Delivery va vite. On analyse, on code et on produit de la valeur métier rapidement.
-							<br/>
-							Toujours soucieux d'évoluer, AXA entreprend sans cesse des améliorations, ce sont les débuts des développements Agile, le Scrum, les tests. Tout le centre est formé à ces pratiques, tout le monde doit être capable d'intervenir sur n'importe quel projet sans avoir besoin d'être formé. Nous avons uniformisé ces pratiques, mais surtout nous avons communiqué les bienfaits de celles-ci à tout le SI. C'est ainsi que le paquebot AXA c'est équipé des propulseurs dignes du Faucon Millenium ! Oui oui ! En à peine 5 ans tout a changé, toujours en quête d'amélioration, tout le centre est aujourd'hui formé à toutes les pratiques de développement et de gestion de projet. Le TDD (Test Driven Development), le BDD (Business Driven Development), le clean Code, les revues de code collectives, gestion d'un Kanban en temps réel pour suivre les développements, Intégration continue avec VSTS, gestion des sources via Git et j'en passe. Quelle grande expérience que de travailler au WebCenter, pouvoir apprendre et partager via des communautés de pratiques, mais aussi pouvoir être proche du métier qui pourtant se trouve à 300km de nous.
-							<br/>
-							Arriver simple développeur et devenir Technical Leader en 5 ans, avoir eu cette chance de travailler sur plus de 20 projets, être encore aujourd'hui formé sur les nouvelles technologies, partager nos expériences à travers des BBL, voilà ce qui constitue mon quotidien et qui comble parfaitement ma soif d'apprendre.</p>
-						<hr class="hrNews">
-					</div>
-				</div>				
-			</div>																	
-		</div> 
-		
-		<div id="contact">		
-			<div class="line7">
-				<div class="container">
-					<div class="row footer">
-						<div class="col-md-12">
-							<h3>Gardons le contact</h3>
-							<p>Vous me retrouverez un peu partout sur l'internet mondial ou dans les divers événements Tech</p>
-						</div>
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-4 col-sm-offset-2">
-									<div class="footer-details">
-										<span class="footer-details-title"><i class="fa fa-map-marker"></i> Où me trouver</span>
-										<span class="footer-details-subtitle">Lille</span>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="footer-details">
-										<span class="footer-details-title"><i class="fa fa-envelope"></i> Par mail</span>
-										<a href="mailto:geoffrey.gourlez@gmail.com" class="footer-details-subtitle">geoffrey.gourlez@gmail.com</a>
-									</div>
-								</div>
-							</div>
-						</div>
+                    <div class="roles">Software Engineer / Technical Leader / Développeur passionné</div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="row darkblue">
+        <div class="left">
+            <div class="block title">
+                <div class="name">Geoffrey Gourlez</div>
+                <div class="roles">Software Engineer / Technical Leader / Développeur passionné</div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="block block_pic">
+                <div class="block_pic">
+                    <img alt="Geoffrey Gourlez" class="logo" src="images/logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear darkblue"></div>
 
+    <div class="row darkblue">
+        <div class="left">
+            <div class="block block_presentation">
+                <div class="presentation">
+                    Hello moi c'est Geoffrey, depuis mon plus jeune âge je suis quelqu'un de curieux, j'aime
+                    décortiquer,
+                    analyser et comprendre tout
+                    ce que j'ai en face de moi. J'ai d'abord suivi un cursus d'électronique avant de découvrir
+                    l'informatique. J'aime construire toute sorte de choses, me rendre et me sentir utile. Passionné
+                    par
+                    le
+                    développement, aimant trouver des solutions, j'aime aussi faire grandir qui veut bien m'écouter.
+                    Aujourd'hui je m'épanouis pleinement dans mon rôle de Technical Leader qui me permet d'allier
+                    technique
+                    et mentoring.
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="block block_pic">
+                <div class="block_pic">
+                    <img alt="Avatar Geoffrey Gourlez" class="roundpic bigpic whiteborder" src="images/pic.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear darkblue"></div>
 
-						<div class="soc col-md-12">
-							<ul>
-								<li class="socicon hovicon effect-3 sub-b"><a href="https://www.linkedin.com/in/geoffrey-gourlez-080828a3/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
-								<li class="socicon hovicon effect-3 sub-b"><a href="http://www.viadeo.com/p/0021mptu6769w0rp" target="_blank"><i class="fa fa-viadeo fa-3x"></i></a></li>								
-								<li class="socicon hovicon effect-3 sub-b"><a href="https://twitter.com/geoiris" target="_blank"><i class="fa fa-twitter fa-3x" ></i></a></li>
-								<li class="socicon hovicon effect-3 sub-b"><a href="https://github.com/geoiris" target="_blank"><i class="fa fa-github fa-3x" ></i></a></li>							
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-			
-		<div class="lineBlack">
-				<div class="container">
-					<div class="row downLine">
-						<div class="col-xs-12 col-md-6 copy">
-							<p>Développé avec <i class="fa fa-heart"></i> (aussi avec les mains et un clavier...)<br /><span class="authorthanks">Les icônes viennent de <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market" target="_blank">Vectors Market</a><span></p>
-						</div>
-						<div class="col-xs-12 col-md-6 dm">
-							<ul id="downMenu">
-								<li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-								<li><a href="#moi">Moi</a></li>
-								<li><a href="#competences">Compétences</a></li>
-								<li><a href="#projets">Mon histoire</a></li>
-								<li><a href="#contact">Contact</a></li>							
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+    <div class="row ">
+        <div class="line">
+            <div class="block">
+                <div class="section">
+                    <h2>Quelques sont les technos et pratiques que j'aime</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="line">
+            <div class="block">
+                <div class="block_techno">
+                    <div class="techno">
+                        <span class="title_techno">HTML</span>
+                        <img alt="Logo HTML" class="pic_techno" src="images/html.png">
+                    </div>
+                    <div class="techno">
+                        <span class="title_techno">CSS</span>
+                        <img alt="Logo CSS" class="pic_techno" src="images/css.png">
+                    </div>
+                    <div class="techno">
+                        <span class="title_techno">Javascript</span>
+                        <img alt="Logo JS" class="pic_techno" src="images/js.png">
+                    </div>
+                    <div class="techno">
+                        <span class="title_techno">NodeJs</span>
+                        <img alt="Logo NodeJs" class="pic_techno" src="images/nodejs.png">
+                    </div>
+                    <div class="techno">
+                        <span class="title_techno">C#</span>
+                        <img alt="Logo CSharp" class="pic_techno" src="images/csharp.png">
+                    </div>
+                    <div class="techno">
+                        <span class="title_techno">Git</span>
+                        <img alt="Logo Git" class="pic_techno" src="images/git.png">
+                    </div>
+                    <div class="techno">
+                        <span class="title_techno">MongoDB</span>
+                        <img alt="Logo MongoDb" class="pic_techno" src="images/mongo.png">
+                    </div>
+                    <div class="techno">
+                        <span class="title_techno">Azure</span>
+                        <img alt="Logo Azure" class="pic_techno" src="images/azure.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="left">
+            <div class="block">
+                <h2>Bonnes pratiques de développement</h2>
+                Depuis mon arrivée chez AXA, j'ai été formé à bon nombre de bonnes pratiques de développement comme le
+                TDD, BDD, le Clean Code et les revues de code. Ces pratiques sont devenues un quotidien et aujourd'hui
+                je suis l'un des référents de ces pratiques au sein de mon équipe.
+            </div>
+        </div>
+        <div class="right darkblue">
+            <div class="block">
+                <h2>Le Mentoring</h2>
+                Nouveau challenge pour moi, mon passage au statut de Technical Leader m'a poussé à développer mon côté
+                Altruiste. J'aime la technique et j'aime former les gens qui le veulent. Aujourd'hui je suis pleinement
+                épanoui dans le fait de tirer le meilleur des personnes qui travaillent avec moi pour pouvoir grandir
+                ensemble.
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="left darkblue o2">
+            <div class="block">
+                <h2>Curiosité</h2>
+                La liste des langages, des bases de données ou des Frameworks que j'ai déjà utilisés est longue. Mon
+                côté curieux me pousse à toujours tester de nouvelles choses. Toujours passionné par l'électronique,
+                j'aime créer mes propres objets connectés par exemple, ma seule limite devient alors le temps que j'ai à
+                ma disposition.
+            </div>
+        </div>
+        <div class="right o1">
+            <div class="block">
+                <h2>Le travail en équipe</h2>
+                Nous avons toujours besoin d'un regard extérieur sur ce que nous faisons, quelqu'un pour nous aider ou
+                même pour relire notre code. Avec le recul je peux confirmer l'importance d'avoir une bonne cohésion
+                d'équipe et de pratiquer le Feedback régulièrement.
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="line">
+            <div class="block">
+                <div class="section">
+                    <h2>Ma timeline, mes passions</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="left">
+            <div class="block">
+                <div class="block_pic">
+                    <img alt="Avatar Geoffrey Gourlez" class="roundpic smallpic whiteborder" src="images/eiffel.jpg">
+                </div>
+                <h2>L'étude de électronique</h2>
+                <p> commence au lycée où, ne sachant pas encore quoi faire dans la vie, je me lance dans
+                    l'électronique. Pas encore équipé d'ordinateur à l'époque je me prends vite au grand jeu de création
+                    qu'est l'électronique. Après deux années d'études je m'en sors haut la main dans les domaines de la
+                    physique et de l'électronique. N'ayant côtoyé des ordinateurs qu'à l'école je souhaite en savoir
+                    davantage sur ce monstre blanc nacré qui traine partout dans les salles de cours. C'est donc au plus
+                    grand désespoir de mes professeurs d'électronique que je me lance dans une nouvelle aventure qu'est
+                    l'informatique.
+                </p>
+            </div>
+        </div>
+        <div class="right darkblue">
 
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.slicknav.js"></script>
-		<script>
-				$(document).ready(function(){
-				$(".bhide").click(function(){
-					$(".hideObj").slideDown();
-					$(this).hide();
-					return false;
-				});
-				$(".bhide2").click(function(){
-					$(".container.hideObj2").slideDown();
-					$(this).hide();
-					return false;
-				});
-					
-				$('.heart').mouseover(function(){
-						$(this).find('i').removeClass('fa-heart-o').addClass('fa-heart');
-					}).mouseout(function(){
-						$(this).find('i').removeClass('fa-heart').addClass('fa-heart-o');
-					});
-				});
-		</script>
-		<script type="text/javascript">
-		jQuery(document).ready(function(){
-			jQuery('#menu').slicknav();
-		});
-		</script>
-		
-		<script type="text/javascript">
-		$(document).ready(function(){
-		
-			var $menu = $("#menuF");
-				
-			$(window).scroll(function(){
-				if ( $(this).scrollTop() > 300 && $menu.hasClass("default") ){
-					$menu.fadeOut('fast',function(){
-						$(this).removeClass("default")
-							.addClass("fixed transbg")
-							.fadeIn('fast');
-					});
-				} else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
-					$menu.fadeOut('fast',function(){
-						$(this).removeClass("fixed transbg")
-							.addClass("default")
-							.fadeIn('fast');
-					});
-				}
-			});
-		});
-		//jQuery
-		</script>
-		<script>
-			/*menu*/
-			function calculateScroll() {
-				var contentTop      =   [];
-				var contentBottom   =   [];
-				var winTop      =   $(window).scrollTop();
-				var rangeTop    =   200;
-				var rangeBottom =   500;
-				$('.navmenu').find('a').each(function(){
-					contentTop.push( $( $(this).attr('href') ).offset().top );
-					contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
-				})
-				$.each( contentTop, function(i){
-					if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
-						$('.navmenu li')
-						.removeClass('active')
-						.eq(i).addClass('active');				
-					}
-				})
-			};
-			
-			$(document).ready(function(){
-				calculateScroll();
-				$(window).scroll(function(event) {
-					calculateScroll();
-				});
-				$('.navmenu ul li a').click(function() {  
-					$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
-					return false;
-				});
-				$('#downMenu li a').click(function() {  
-					$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
-					return false;
-				});
-			});		
-		</script>
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            <div class="block">
+                <div class="block_pic">
+                    <img alt="Avatar Geoffrey Gourlez" class="roundpic smallpic whiteborder" src="images/arduino.png">
+                </div>
+                <h2>L'électronique, plus que des cours</h2>
+                <p>L'électronique n'est pas qu'un vieux reste de cours de Lycée. Passionné par les nouvelles
+                    technologies,
+                    à l'heure de la domotique, des Arduino, des Raspberry Pi et bien d'autre, je suis aujourd'hui en
+                    pleine création de mon IoT personnel. Allant de la création de simple capteur à la conception de mon
+                    propre
+                    Hub d'objets connectés, j'aime faire mon Geek et m'enrichir de nouvelles techniques tout en
+                    m'amusant.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="left darkblue o2">
+            <div class="block">
+                <h2>La découverte de l'informatique</h2>
+                <p>En 2006 j'entre alors dans ce que je qualifie être mes deux plus belles années d'études, le BTS
+                    IRIS
+                    (Informatique et réseaux pour l'industrie et les services). J'apprends la programmation,
+                    l'architecture,
+                    le réseau. Je me découvre une nouvelle passion, j'achète mon premier PC, puis mon deuxième et ainsi
+                    de
+                    suite, je suis l'étudiant "geek" en informatique parfait, mes soirées se résument à bidouiller des
+                    bouts
+                    de code, écrire des programmes en C++ et surtout mener au bout le Projet de BTS, la création d'une
+                    application permettant à un restaurant de prendre les commandes, informer les cuisines et gérer le
+                    paiement, le tout en Java, sur les écrans tactiles de l'époque. C'est aussi à cette période que je
+                    découvre le monde du travail en Stage chez Adeo Services où j'ai développé de petits scripts en
+                    Shell
+                    permettant de vérifier les installations des serveurs de caisse des magasins Leroy Merlin.</p>
+            </div>
+        </div>
+        <div class="right o1">
+            <div class="block">
+                <h2>Approfondissement des connaissances</h2>
+                <p>Durant ces trois ans d'école d'ingénieur, je ne chaume pas ! Dans le premier mois je trouve un stage
+                    en
+                    tant que développeur PHP dans une école de commerce à distance. Le but est de développer un CRM
+                    interne
+                    permettant de gérer les prospects et les étudiants de l'école. Je réalise également d'autres projets
+                    internes comme la mise en place d'un traqueur de visites sur les sites de l'école pour améliorer
+                    notre
+                    SEO (Search Engine Optimization), ou encore réaliser un jeu Facebook en FBML (langage de
+                    programmation
+                    "maison" de Facebook) afin d'attirer des prospects.</p>
 
-		ga('create', 'UA-105163345-1', 'auto');
-		ga('send', 'pageview');
+                <p>Après cette expérience je suis recruté par SoftThinks. Cette société, spécialisée dans le Backup &
+                    Restore, travaille principalement avec Dell et HP pour mettre en place ce type de solution sur leurs
+                    systèmes. C'est ici que je découvre l'univers du .Net en entreprise. D'abord chargé de réaliser un
+                    site
+                    ASP.Net permettant de gérer les traductions de toutes les applications de la société, je suis vite
+                    positionné en renfort dans l'équipe chargée d'étudier une solution de Backup & Restore sur le Cloud.
+                    Solution en WPF avec un Hébergement sur Amazon S3 dans un premier temps, puis sur Azure Storage.
+                    C'est
+                    ici que je vais finir mes études et c'est avec ce projet que je validerai alors mon mémoire.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="line">
+            <div class="block">
+                <h2>L'Aventure AXA</h2>
+                <p>C'est en octobre 2011 que débute mon aventure chez AXA. Jeune diplômé, le Web Center de Lille venait
+                    d'ouvrir ses portes et décide de me faire confiance. C'est là que mes armes commencent à se faire.
+                    Le
+                    cadre est neuf, les équipes sont dynamiques, les projets innovants et le Delivery va vite. On
+                    analyse,
+                    on code et on produit de la valeur métier rapidement.</p>
+                <p>Toujours soucieux d'évoluer, AXA entreprend sans cesse des améliorations, ce sont les débuts des
+                    développements Agile, le Scrum, les tests. Tout le centre est formé à ces pratiques, tout le monde
+                    doit
+                    être capable d'intervenir sur n'importe quel projet sans avoir besoin d'être formé. Nous avons
+                    uniformisé ces pratiques, mais surtout nous avons communiqué les bienfaits de celles-ci à tout le
+                    SI.
+                    C'est ainsi que le paquebot AXA c'est équipé des propulseurs dignes du Faucon Millenium ! Oui oui !
+                    En à
+                    peine 5 ans tout a changé, toujours en quête d'amélioration, tout le centre est aujourd'hui formé à
+                    toutes les pratiques de développement et de gestion de projet. Le TDD (Test Driven Development), le
+                    BDD
+                    (Business Driven Development), le clean Code, les revues de code collectives, gestion d'un Kanban en
+                    temps réel pour suivre les développements, Intégration continue avec VSTS, gestion des sources via
+                    Git
+                    et j'en passe. Quelle grande expérience que de travailler au WebCenter, pouvoir apprendre et
+                    partager
+                    via des communautés de pratiques, mais aussi pouvoir être proche du métier qui pourtant se trouve à
+                    300km de nous.</p>
+                <p>Arriver simple développeur et devenir Technical Leader en 5 ans, avoir eu cette chance de travailler
+                    sur
+                    plus de 20 projets, être encore aujourd'hui formé sur les nouvelles technologies, partager nos
+                    expériences à travers des BBL, voilà ce qui constitue mon quotidien et qui comble parfaitement ma
+                    soif
+                    d'apprendre.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row darkblue">
+        <div class="line">
+            <div class="block">
+                <div class="section">
+                    <h2>Si tu veux me contacter</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row darkblue">
+        <div class="line">
+            <div class="block">
+                Vous me retrouverez un peu partout sur l'internet mondial ou dans les divers événements Tech
 
-		</script>
-	</body>
+                geoffrey.gourlez@gmail.com
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

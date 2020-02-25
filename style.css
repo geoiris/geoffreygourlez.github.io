@@ -1,0 +1,152 @@
+body {
+	margin: 0px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+}
+p {
+	text-align: justify;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 1px solid #0c2126;
+}
+
+.clear {
+	width: 100%;
+	height: 50px;
+}
+
+.left {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.right {
+	width: 50%;
+	display: flex;
+}
+
+.line {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.block {
+	margin: 50px;
+}
+
+.block_techno {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.block_pic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.techno {
+	min-width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.title_techno {
+	margin: 15px;
+	font-weight: 700;
+}
+
+.pic_techno {
+	width: 150px;
+}
+
+.roundpic {
+	border-radius: 50%;
+}
+
+.bigpic {
+	width: 60%;
+}
+.smallpic {
+	max-width: 25%;
+}
+
+.whiteborder {
+	border: 10px solid #fff;
+}
+
+.title {
+	text-align: center;
+}
+
+.darkblue {
+	background-color: #0c2126;
+	color: #fff;
+}
+
+.logo {
+	width: 40%;
+}
+
+.name {
+	color: #fff;
+}
+
+.roles {
+	color: #ccc;
+}
+
+.block_presentation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.presentation {
+	text-align: justify;
+}
+
+.section {
+	text-align: center;
+}
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+	.bigpic {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.row {
+		flex-direction: column;
+	}
+
+	.left {
+		width: 100%;
+	}
+
+	.right {
+		width: 100%;
+	}
+
+	.block {
+		width: 100%;
+	}
+
+	.bigpic {
+		width: 50%;
+	}
+
+	.o1 {
+		order: 1;
+	}
+	.o2 {
+		order: 2;
+	}
+}
